@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mrshuja.github.io/portfolio/static/css/main.91452c9b.css",
-    "main.js": "/mrshuja.github.io/portfolio/static/js/main.9a609cad.js",
+    "main.js": "/mrshuja.github.io/portfolio/static/js/main.270429a7.js",
     "static/media/portfolioPic.png": "/mrshuja.github.io/portfolio/static/media/portfolioPic.3bdb930f6813e698ff23.png",
     "static/media/blogApp.png": "/mrshuja.github.io/portfolio/static/media/blogApp.1bd211260006edd5ff75.png",
     "static/media/bookStore.png": "/mrshuja.github.io/portfolio/static/media/bookStore.7b63b36a999a663068a3.png",
@@ -12,10 +12,10 @@
     "static/media/bookLibrary.jpeg": "/mrshuja.github.io/portfolio/static/media/bookLibrary.bf6c621a665be0390019.jpeg",
     "index.html": "/mrshuja.github.io/portfolio/index.html",
     "main.91452c9b.css.map": "/mrshuja.github.io/portfolio/static/css/main.91452c9b.css.map",
-    "main.9a609cad.js.map": "/mrshuja.github.io/portfolio/static/js/main.9a609cad.js.map"
+    "main.270429a7.js.map": "/mrshuja.github.io/portfolio/static/js/main.270429a7.js.map"
   },
   "entrypoints": [
     "static/css/main.91452c9b.css",
-    "static/js/main.9a609cad.js"
+    "static/js/main.270429a7.js"
   ]
 }

@@ -19,7 +19,6 @@ const Header = () => {
           <div className="flex-grow flex justify-center">
             <nav className="flex space-x-6">
               <NavLink
-                exact
                 to="/"
                 className={({ isActive }) =>
                   isActive

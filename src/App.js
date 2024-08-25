@@ -12,7 +12,6 @@ import Coming from './components/comingSoon/ComingSoon';
 function App() {
   return (
    <>
-   <router>
     <Header />
     <main className="pt-16"> {/* Adds padding to avoid overlap with fixed header */}
       <Routes>
@@ -22,9 +21,9 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/comingSoon" element={<Coming />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </main>
-    </router>
    </>
   );
 }

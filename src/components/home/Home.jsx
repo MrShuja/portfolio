@@ -59,14 +59,14 @@ const Home = () => {
               <a
                 href="https://www.instagram.com/your-profile"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="blanck"
               >
                 <FaInstagram className="text-pink-600 hover:text-pink-700 text-2xl sm:text-3xl transition duration-300" />
               </a>
               <a
                 href="https://wa.me/+923450583043"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="black"
               >
                 <FaWhatsapp className="text-green-600 hover:text-green-700 text-2xl sm:text-3xl transition duration-300" />
               </a>

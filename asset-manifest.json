@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MrShuja.github.io/portfolio/static/css/main.91452c9b.css",
+    "main.js": "/MrShuja.github.io/portfolio/static/js/main.cba2b63e.js",
+    "static/media/portfolioPic.png": "/MrShuja.github.io/portfolio/static/media/portfolioPic.3bdb930f6813e698ff23.png",
+    "static/media/blogApp.png": "/MrShuja.github.io/portfolio/static/media/blogApp.1bd211260006edd5ff75.png",
+    "static/media/bookStore.png": "/MrShuja.github.io/portfolio/static/media/bookStore.7b63b36a999a663068a3.png",
+    "static/media/cosmaticStore.png": "/MrShuja.github.io/portfolio/static/media/cosmaticStore.a2e4ebf807958286f20e.png",
+    "static/media/aboutImage.jpg": "/MrShuja.github.io/portfolio/static/media/aboutImage.02dc90e89afae1c17606.jpg",
+    "static/media/portfolio.png": "/MrShuja.github.io/portfolio/static/media/portfolio.23ada7a4bb4839d1a982.png",
+    "static/media/countryInfo.png": "/MrShuja.github.io/portfolio/static/media/countryInfo.9f2598bd5c7f1497739a.png",
+    "static/media/bookLibrary.jpeg": "/MrShuja.github.io/portfolio/static/media/bookLibrary.bf6c621a665be0390019.jpeg",
+    "index.html": "/MrShuja.github.io/portfolio/index.html",
+    "main.91452c9b.css.map": "/MrShuja.github.io/portfolio/static/css/main.91452c9b.css.map",
+    "main.cba2b63e.js.map": "/MrShuja.github.io/portfolio/static/js/main.cba2b63e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91452c9b.css",
+    "static/js/main.cba2b63e.js"
+  ]
+}

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mrshuja.github.io/portfolio/static/css/main.91452c9b.css",
-    "main.js": "/mrshuja.github.io/portfolio/static/js/main.270429a7.js",
-    "static/media/portfolioPic.png": "/mrshuja.github.io/portfolio/static/media/portfolioPic.3bdb930f6813e698ff23.png",
-    "static/media/blogApp.png": "/mrshuja.github.io/portfolio/static/media/blogApp.1bd211260006edd5ff75.png",
-    "static/media/bookStore.png": "/mrshuja.github.io/portfolio/static/media/bookStore.7b63b36a999a663068a3.png",
-    "static/media/cosmaticStore.png": "/mrshuja.github.io/portfolio/static/media/cosmaticStore.a2e4ebf807958286f20e.png",
-    "static/media/aboutImage.jpg": "/mrshuja.github.io/portfolio/static/media/aboutImage.02dc90e89afae1c17606.jpg",
-    "static/media/portfolio.png": "/mrshuja.github.io/portfolio/static/media/portfolio.23ada7a4bb4839d1a982.png",
-    "static/media/countryInfo.png": "/mrshuja.github.io/portfolio/static/media/countryInfo.9f2598bd5c7f1497739a.png",
-    "static/media/bookLibrary.jpeg": "/mrshuja.github.io/portfolio/static/media/bookLibrary.bf6c621a665be0390019.jpeg",
-    "index.html": "/mrshuja.github.io/portfolio/index.html",
-    "main.91452c9b.css.map": "/mrshuja.github.io/portfolio/static/css/main.91452c9b.css.map",
-    "main.270429a7.js.map": "/mrshuja.github.io/portfolio/static/js/main.270429a7.js.map"
+    "main.css": "/portfolio/static/css/main.91452c9b.css",
+    "main.js": "/portfolio/static/js/main.9c0b8d28.js",
+    "static/media/portfolioPic.png": "/portfolio/static/media/portfolioPic.3bdb930f6813e698ff23.png",
+    "static/media/blogApp.png": "/portfolio/static/media/blogApp.1bd211260006edd5ff75.png",
+    "static/media/bookStore.png": "/portfolio/static/media/bookStore.7b63b36a999a663068a3.png",
+    "static/media/cosmaticStore.png": "/portfolio/static/media/cosmaticStore.a2e4ebf807958286f20e.png",
+    "static/media/aboutImage.jpg": "/portfolio/static/media/aboutImage.02dc90e89afae1c17606.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.23ada7a4bb4839d1a982.png",
+    "static/media/countryInfo.png": "/portfolio/static/media/countryInfo.9f2598bd5c7f1497739a.png",
+    "static/media/bookLibrary.jpeg": "/portfolio/static/media/bookLibrary.bf6c621a665be0390019.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.91452c9b.css.map": "/portfolio/static/css/main.91452c9b.css.map",
+    "main.9c0b8d28.js.map": "/portfolio/static/js/main.9c0b8d28.js.map"
   },
   "entrypoints": [
     "static/css/main.91452c9b.css",
-    "static/js/main.270429a7.js"
+    "static/js/main.9c0b8d28.js"
   ]
 }

@@ -1,0 +1,13 @@
+/* index.css */
+
+/* Hide the scrollbar for all browsers */
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  

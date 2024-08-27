@@ -35,7 +35,7 @@ const About = () => {
         <motion.div className=""
         variants={fadeIn("right", "tween", 0.2, 0.5)}
         >
-          <h1 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 shadow-lg text-white xs:text-center sm:text-start">
+          <h1 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 shadow-lg text-white text-center md:text-left justify-center">
             About Me
           </h1>
         </motion.div>

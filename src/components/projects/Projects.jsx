@@ -15,7 +15,7 @@ const ProjectBox = ({ title, imageUrl, liveDemoUrl, codeUrl }) => {
     <div className=''>
       <div className="bg-gray-800 text-white p-6 xs:mx-10 md:mx-2 rounded-lg shadow-lg border border-gray-700">
       {/* Heading */}
-      <h1 className="text-2xl font-bold mb-0 text-center">{title}</h1>
+      <h1 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 shadow-lg text-white text-center md:text-left">{title}</h1>
       
       {/* Image */}
       <img 

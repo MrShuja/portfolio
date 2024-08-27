@@ -33,7 +33,7 @@ const Expertise = () => {
         <motion.div className=""
           variants={fadeIn("right", "tween", 0.1, 0.6)}
         >
-          <h1 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 shadow-lg text-white xs:text-center sm:text-start">
+          <h1 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 shadow-lg text-white text-center md:text-left">
             Expertise
           </h1>
         </motion.div>

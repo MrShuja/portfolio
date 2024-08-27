@@ -41,7 +41,7 @@ const About = () => {
         </motion.div>
 
         {/* Main content section with two columns on larger screens */}
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 px-20">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2">
           {/* Left side - image, hidden on small devices */}
           <motion.div className="hidden md:flex justify-center md:justify-start"
           variants={fadeIn("right", "tween", 0.4, 0.9)}
@@ -54,7 +54,7 @@ const About = () => {
           </motion.div>
 
           {/* Right side - description */}
-          <div className="md:ml-6">
+          <div className="w-full container md:ml-6 ">
             <motion.h1 className="text-white  md:mt-0 md:py-0"
             variants={fadeIn("left", "tween", 0.6, 1.1)}
             >

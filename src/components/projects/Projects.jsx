@@ -15,7 +15,7 @@ const ProjectBox = ({ title, imageUrl, liveDemoUrl, codeUrl }) => {
     <div className=''>
       <div className="bg-gray-800 text-white p-6 xs:mx-10 md:mx-2 rounded-lg shadow-lg border border-gray-700">
       {/* Heading */}
-      <h1 className="text-2xl font-bold mb-4 text-center">{title}</h1>
+      <h1 className="text-2xl font-bold mb-0 text-center">{title}</h1>
       
       {/* Image */}
       <img 
@@ -90,7 +90,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         variants={staggerContainer(0.3, 0.1)}
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.025 }}
     >
        <motion.div className='py-10'
        variants={fadeIn("right", "tween", 0.1, 0.6)}

@@ -11,6 +11,7 @@ import PortfolioPic from "../files/portfolioPic.png";
 import { motion } from "framer-motion";
 import "./Home.css";
 import { fadeIn, staggerContainer } from "../Animation/motion";
+import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <motion.section
@@ -115,13 +116,17 @@ const Home = () => {
           I am passionate about building scalable web applications With a strong
           foundation in both front-end and back-end technologies.
         </motion.p>
-        <motion.a
-          href="/contact"
+        <motion.span
+        variants={fadeIn("right", "tween", 0.9, 1.5)}
+        >
+        <NavLink
+          to="/contact"
           className="bg-transparent text-blue-600 border border-blue-600 py-2 px-6 rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
-          variants={fadeIn("right", "tween", 0.9, 1.5)}
+          
         >
           Contact Me
-        </motion.a>
+        </NavLink>
+        </motion.span>
       </motion.div>
     </motion.section>
   );

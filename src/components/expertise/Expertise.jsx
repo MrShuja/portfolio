@@ -27,7 +27,7 @@ const Expertise = () => {
         initial="hidden"
         whileInView="show"
         variants={staggerContainer(0.3, 0.1)}
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.025 }}
     >
       <div className="container mx-auto">
         <motion.div className=""

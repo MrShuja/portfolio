@@ -73,46 +73,46 @@ const Contact = () => {
 
               {/* Contact Form Section */}
               <motion.div className="w-full md:w-2/3 p-6 bg-gray-900 text-white"
-              variants={fadeIn("right", "tween", 0.2, 0.8)}
-              >
-                <h2 className="text-2xl font-bold mb-6">Send me a message</h2>
-                <form className="space-y-4">
-                  <div className="flex space-x-4">
-                    <input
-                      type="text"
-                      placeholder="First Name"
-                      className="flex-1 p-3 rounded-lg bg-gray-700 text-white"
-                    />
-                    <input
-                      type="text"
-                      placeholder="Last Name"
-                      className="flex-1 p-3 rounded-lg bg-gray-700 text-white"
-                    />
-                  </div>
-                  <div className="flex space-x-4">
-                    <input
-                      type="email"
-                      placeholder="Mail"
-                      className="flex-1 p-3 rounded-lg bg-gray-700 text-white"
-                    />
-                    <input
-                      type="text"
-                      placeholder="Phone"
-                      className="flex-1 p-3 rounded-lg bg-gray-700 text-white"
-                    />
-                  </div>
-                  <textarea
-                    placeholder="Write your message"
-                    className="w-full p-3 rounded-lg bg-gray-700 text-white h-32"
-                  ></textarea>
-                  <button
-                    type="submit"
-                    className="w-full p-3 rounded-lg bg-gradient-to-r from-red-500 to-pink-500 text-white font-bold"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </motion.div>
+  variants={fadeIn("right", "tween", 0.2, 0.8)}
+>
+  <h2 className="text-2xl font-bold mb-6">Send me a message</h2>
+  <form className="space-y-4">
+    <div className="flex flex-col md:flex-row md:space-x-4">
+      <input
+        type="text"
+        placeholder="First Name"
+        className="flex-1 p-3 rounded-lg bg-gray-700 text-white w-full md:w-5/6"
+      />
+      <input
+        type="text"
+        placeholder="Last Name"
+        className="flex-1 p-3 rounded-lg bg-gray-700 text-white w-full md:w-5/6 mt-4 md:mt-0"
+      />
+    </div>
+    <div className="flex flex-col md:flex-row md:space-x-4">
+      <input
+        type="email"
+        placeholder="Mail"
+        className="flex-1 p-3 rounded-lg bg-gray-700 text-white w-full md:w-5/6"
+      />
+      <input
+        type="text"
+        placeholder="Phone"
+        className="flex-1 p-3 rounded-lg bg-gray-700 text-white w-full md:w-5/6 mt-4 md:mt-0"
+      />
+    </div>
+    <textarea
+      placeholder="Write your message"
+      className="w-full p-3 rounded-lg bg-gray-700 text-white h-32"
+    ></textarea>
+    <button
+      type="submit"
+      className="w-full p-3 rounded-lg bg-gradient-to-r from-red-500 to-pink-500 text-white font-bold"
+    >
+      Send Message
+    </button>
+  </form>
+</motion.div>
             </div>
           </div>
         </div>

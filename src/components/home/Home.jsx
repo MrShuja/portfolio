@@ -43,14 +43,14 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin className="text-blue-600 hover:text-blue-700 text-2xl sm:text-3xl transition duration-300" />
+                <FaLinkedin className="text-gray-100 hover:text-blue-600 text-2xl sm:text-3xl transition duration-300" />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=100089746535329"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook className="text-blue-600 hover:text-blue-700 text-2xl sm:text-3xl transition duration-300" />
+                <FaFacebook className="text-gray-100 hover:text-blue-600 text-2xl sm:text-3xl transition duration-300" />
               </a>
             </motion.div>
             <motion.div
@@ -62,14 +62,14 @@ const Home = () => {
                 target="_blank"
                 rel="blanck"
               >
-                <FaInstagram className="text-pink-600 hover:text-pink-700 text-2xl sm:text-3xl transition duration-300" />
+                <FaInstagram className="text-gray-100 hover:text-blue-600 text-2xl sm:text-3xl transition duration-300" />
               </a>
               <a
                 href="https://wa.me/+923450583043"
                 target="_blank"
                 rel="black"
               >
-                <FaWhatsapp className="text-green-600 hover:text-green-700 text-2xl sm:text-3xl transition duration-300" />
+                <FaWhatsapp className="text-gray-100 hover:text-blue-600 text-2xl sm:text-3xl transition duration-300" />
               </a>
             </motion.div>
           </motion.div>
@@ -121,7 +121,7 @@ const Home = () => {
         >
         <NavLink
           to="/contact"
-          className="bg-transparent text-blue-600 border border-blue-600 py-2 px-6 rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
+          className="bg-transparent text-gray-100 border border-blue-600 py-2 px-6 rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
           
         >
           Contact Me

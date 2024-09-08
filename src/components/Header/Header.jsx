@@ -9,9 +9,9 @@ const Header = () => {
     <header className="bg-gray-900 text-white shadow-md fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center p-4 h-16">
         <div>
-          <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-400 shadow-lg shadow-blue-800/50 drop-shadow-md text-shadow-sm animate-pulse">
-            <span className="text-4xl">W</span>EB
-            <span className="text-3xl font-extrabold">D</span>EV
+          <h1 className="text-xs md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400 shadow-lg shadow-gray-100/50 drop-shadow-md text-shadow-sm animate-pulse">
+            <span className="text-2xl md:text-4xl">W</span>EB
+            <span className="text-2xl font-extrabold">D</span>EV
             <span className="text-2xl">E</span>LOPER
           </h1>
         </div>
@@ -72,7 +72,7 @@ const Header = () => {
           </div>
           <div>
             <a href={`${process.env.PUBLIC_URL}/MyCvPNew.pdf`} download="MyCvPNew.pdf">
-              <button className="border border-gray-600 text-gray-300 py-2 px-4 rounded-full hover:bg-blue-600 hover:text-white transition duration-300">
+              <button className="border border-blue-600 text-gray-300 py-2 px-4 rounded-full hover:bg-blue-600 hover:text-white transition duration-300">
                 Download CV
               </button>
             </a>
